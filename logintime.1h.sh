@@ -13,6 +13,7 @@
 # <bitbar.author>Tan Nhat Nguyen</bitbar.author>
 # <bitbar.author.github>TanNhatNguyen</bitbar.author.github>
 # <bitbar.desc>Shows the first and the latest login time of the day.</bitbar.desc>
+# <bitbar.image>https://raw.githubusercontent.com/TanNhatNguyen/BitBar-LoginTime/master/logintime_screenshot.png</bitbar.image>
 # <bitbar.abouturl>https://github.com/TanNhatNguyen/BitBar-LoginTime</bitbar.abouturl>
 
 LOGFILEPATH="/var/log/accountpolicy.log"
