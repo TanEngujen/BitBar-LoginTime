@@ -21,9 +21,9 @@ LOGFILEPATH="/var/log/accountpolicy.log"
 function getLoginData
 {
     if [ "$1" == "first" ] ; then
-        head -n1 $LOGFILEPATH | tr -s ' ' | cut -d " " -f3
+        head -n1 $LOGFILEPATH | awk '{print $3}'
     elif [ "$1" == "last" ] ; then
-        tail -n1 $LOGFILEPATH | tr -s ' ' | cut -d " " -f3
+        tail -n1 $LOGFILEPATH | awk '{print $3}'
     fi
 }
 
